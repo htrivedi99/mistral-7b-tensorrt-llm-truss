@@ -1,0 +1,12 @@
+environment_variables: {}
+model_metadata: {}
+model_name: Mistral 7B v0.2 TRT
+python_version: py310
+requirements_file: ./requirements.txt
+resources:
+  use_gpu: true
+  cpu: '1'
+  memory: 2Gi
+system_packages:
+- libopenmpi-dev
+- mpich
